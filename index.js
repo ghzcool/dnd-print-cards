@@ -23,7 +23,7 @@ list.forEach(async (name) => {
         for (let i = 0; i < pagesAmount; i++) {
             const pageImage = await jimp.create(paperProps.width, paperProps.height, "#ffffffff");
 
-            // TODO: render card images to paper images
+            // render card images to paper images
             for (let j = i * cardsPerPage, k = 0; j < i * cardsPerPage + cardsPerPage && j < cards.length; j++, k++) {
                 const card = cards[j];
                 const cardFrontImage = await jimp.create(card.front);
@@ -31,13 +31,13 @@ list.forEach(async (name) => {
                 cardBackImage.flip(false, true);
                 pageImage.composite(cardFrontImage, paperProps.offset + (k * (cardProps.width + paperProps.offset)), paperProps.offset);
                 pageImage.composite(cardBackImage, paperProps.offset + (k * (cardProps.width + paperProps.offset)), paperProps.offset + cardProps.height);
-                console.log(Math.floor(i / pagesAmount * 100) + ((k + 1) / cardsPerPage * 100 / pagesAmount) + "%");
+                console.log(Math.floor((i / pagesAmount * 100) + ((k + 1) / cardsPerPage * 100 / pagesAmount)) + "%");
             }
 
             // save paper images as <configName>_<pageIndex>.png
             pageImage.write(OUTPUT_PATH + "/" + configName + "_" + i + ".png");
             if ((i + 1) === pagesAmount) {
-                console.log(Math.floor((i + 1) / pagesAmount * 100) + "%");
+                console.log("100%");
             }
         }
     }

@@ -1,0 +1,73 @@
+{
+  "paperProps": {
+    "width": 7020,
+    "height": 4980,
+    "offset": 200
+  },
+  "cardProps": {
+    "width": 1488,
+    "height": 2079
+  },
+  "cards": [
+    {
+      "front": "cards/paladin/Благословение.png",
+      "back": "cards/back/Очарование.png"
+    },
+    {
+      "front": "cards/paladin/Божественное благоволение.png",
+      "back": "cards/back/Воплощение.png"
+    },
+    {
+      "front": "cards/paladin/Вызов на дуэль.png",
+      "back": "cards/back/Очарование.png"
+    },
+    {
+      "front": "cards/paladin/Героизм.png",
+      "back": "cards/back/Очарование.png"
+    },
+    {
+      "front": "cards/paladin/Гневная кара.png",
+      "back": "cards/back/Воплощение.png"
+    },
+    {
+      "front": "cards/paladin/Громовая кара.png",
+      "back": "cards/back/Воплощение.png"
+    },
+    {
+      "front": "cards/paladin/Защита от зла и добра.png",
+      "back": "cards/back/Ограждение.png"
+    },
+    {
+      "front": "cards/paladin/Лечение ран.png",
+      "back": "cards/back/Воплощение.png"
+    },
+    {
+      "front": "cards/paladin/Обнаружение болезней и яда.png",
+      "back": "cards/back/Прорицание.png"
+    },
+    {
+      "front": "cards/paladin/Обнаружение зла и добра.png",
+      "back": "cards/back/Прорицание.png"
+    },
+    {
+      "front": "cards/paladin/Обнаружение магии.png",
+      "back": "cards/back/Прорицание.png"
+    },
+    {
+      "front": "cards/paladin/Очищение пищи и питья.png",
+      "back": "cards/back/Преобразование.png"
+    },
+    {
+      "front": "cards/paladin/Палящая кара.png",
+      "back": "cards/back/Воплощение.png"
+    },
+    {
+      "front": "cards/paladin/Приказ.png",
+      "back": "cards/back/Очарование.png"
+    },
+    {
+      "front": "cards/paladin/Щит веры.png",
+      "back": "cards/back/Ограждение.png"
+    }
+  ]
+}
