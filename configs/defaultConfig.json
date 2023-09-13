@@ -1,0 +1,33 @@
+{
+  "paperProps": {
+    "width": 7020,
+    "height": 4980,
+    "offset": 200
+  },
+  "cardProps": {
+    "width": 1488,
+    "height": 2079
+  },
+  "cards": [
+    {
+      "front": "cards/frontSample.png",
+      "back": "cards/backSample.png"
+    },
+    {
+      "front": "cards/backSample.png",
+      "back": "cards/frontSample.png"
+    },
+    {
+      "front": "cards/frontSample.png",
+      "back": "cards/backSample.png"
+    },
+    {
+      "front": "cards/backSample.png",
+      "back": "cards/frontSample.png"
+    },
+    {
+      "front": "cards/backSample.png",
+      "back": "cards/frontSample.png"
+    }
+  ]
+}

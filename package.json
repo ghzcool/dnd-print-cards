@@ -1,0 +1,22 @@
+{
+  "name": "dnd-print-cards",
+  "version": "1.0.0",
+  "description": "Layout cards for printing",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "jimp": "^0.22.10"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghzcool/dnd-print-cards.git"
+  },
+  "author": "Pavel Pirogov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghzcool/dnd-print-cards/issues"
+  },
+  "homepage": "https://github.com/ghzcool/dnd-print-cards#readme"
+}
