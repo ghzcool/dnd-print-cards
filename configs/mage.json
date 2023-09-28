@@ -1,0 +1,65 @@
+{
+  "paperProps": {
+    "width": 6599,
+    "height": 4681,
+    "offset": 100
+  },
+  "cardProps": {
+    "width": 1488,
+    "height": 2079
+  },
+  "cards": [
+    {
+      "front": "cards/mage/Волшебная рука.png",
+      "back": "cards/back/Вызов.png"
+    },
+    {
+      "front": "cards/mage/Луч болезни.png",
+      "back": "cards/back/Некромантия.png"
+    },
+    {
+      "front": "cards/mage/Малая иллюзия.png",
+      "back": "cards/back/Иллюзия.png"
+    },
+    {
+      "front": "cards/mage/Невидимый слуга.png",
+      "back": "cards/back/Вызов.png"
+    },
+    {
+      "front": "cards/mage/Огненные ладони.png",
+      "back": "cards/back/Воплощение.png"
+    },
+    {
+      "front": "cards/mage/Очарование личности.png",
+      "back": "cards/back/Очарование.png"
+    },
+    {
+      "front": "cards/mage/Падение перышком.png",
+      "back": "cards/back/Преобразование.png"
+    },
+    {
+      "front": "cards/mage/Пляшущие огоньки.png",
+      "back": "cards/back/Воплощение.png"
+    },
+    {
+      "front": "cards/mage/Поиск фамильяра.png",
+      "back": "cards/back/Вызов.png"
+    },
+    {
+      "front": "cards/mage/Псевдожизнь.png",
+      "back": "cards/back/Некромантия.png"
+    },
+    {
+      "front": "cards/mage/Тензеров парящий диск.png",
+      "back": "cards/back/Вызов.png"
+    },
+    {
+      "front": "cards/mage/Цветной шарик.png",
+      "back": "cards/back/Воплощение.png"
+    },
+    {
+      "front": "cards/mage/Ядовитые брызги.png",
+      "back": "cards/back/Вызов.png"
+    }
+  ]
+}
