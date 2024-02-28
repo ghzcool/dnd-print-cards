@@ -28,7 +28,7 @@ list.forEach(async (name) => {
                 const card = cards[j];
                 const cardFrontImage = await jimp.create(card.front);
                 const cardBackImage = await jimp.create(card.back);
-                cardBackImage.flip(false, true);
+                cardBackImage.flip(true, true);
                 pageImage.composite(cardFrontImage, paperProps.offset + (k * (cardProps.width + paperProps.offset)), paperProps.offset);
                 pageImage.composite(cardBackImage, paperProps.offset + (k * (cardProps.width + paperProps.offset)), paperProps.offset + cardProps.height);
                 console.log(Math.floor((i / pagesAmount * 100) + ((k + 1) / cardsPerPage * 100 / pagesAmount)) + "%");
